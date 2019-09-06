@@ -44,12 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddFromBranchPreset.cs" />
-    <Compile Include="AddFromTemplatePresetDisabler.cs" />
-    <Compile Include="Disabler.cs" />
-    <Compile Include="LayoutHelper.cs" />
+    <Compile Include="Helpers\Disabler\Disabler.cs" />
+    <Compile Include="Helpers\Disabler\DisablerState.cs" />
+    <Compile Include="Helpers\Layout\LayoutHelper.cs" />
+    <Compile Include="Helpers\Layout\RenderingActionResult.cs" />
+    <Compile Include="Presets\AddFromBranchPreset.cs" />
+    <Compile Include="Presets\AddFromTemplatePresetDisabler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RenderingActionResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App_Config\Include\01_modules_author\Kamsar.BranchPresets.config" />
