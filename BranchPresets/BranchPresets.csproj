@@ -52,7 +52,7 @@
     <Compile Include="RenderingActionResult.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_Config\Include\z_client\Client.BranchPresets.config" />
+    <None Include="App_Config\Include\01_modules_author\Kamsar.BranchPresets.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
